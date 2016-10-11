@@ -34,7 +34,7 @@
               href="genindex.html"/>
         <link rel="search" title="搜索" href="search.html"/>
     <link rel="top" title="pay_2016 1.0 文档" href="index.html"/>
-        <link rel="prev" title="南京大学财务处网站使用手册" href="index.html"/> 
+        <link rel="prev" title="手册介绍" href="intro.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -84,11 +84,18 @@
             
             
                 <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">手册介绍</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">实用案例参考指南</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id2">案例: 收取外校人员的考试费</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">案例: 收取校内人员的考试费</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id3">简介</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id4">管理员步骤</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id5">用户缴费步骤</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">案例: 收取校外人员的考试费</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id7">简介</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id8">管理员步骤</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id9">用户缴费步骤</a></li>
 </ul>
 </li>
 </ul>
@@ -140,37 +147,137 @@
   <div class="section" id="case-out">
 <span id="id1"></span><h1>实用案例参考指南<a class="headerlink" href="#case-out" title="永久链接至标题">¶</a></h1>
 <div class="section" id="id2">
-<h2>案例: 收取外校人员的考试费<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<h2>案例: 收取校内人员的考试费<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
 <div class="section" id="id3">
 <h3>简介<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h3>
-<p>针对某校外人员, 使用南京大学在线财务系统创立一个收费项目并实现线上的收费.</p>
+<p>针对某 <strong>校内人员</strong> , 使用南京大学在线财务系统创立一个收费项目并实现线上的收费.</p>
 </div>
 <div class="section" id="id4">
 <h3>管理员步骤<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h3>
 <ol class="arabic">
-<li><p class="first">进入 <strong>后台项目系统</strong>. 进入 pay.nju.edu.cn -&gt; 选择 <strong>校内用户</strong> -&gt; 输入管理员账号密码 -&gt; 到达 <strong>在线支付平台界面导航</strong></p>
+<li><p class="first">进入 <strong>后台项目系统</strong>. 进入 <a class="reference external" href="http://pay.nju.edu.cn">http://pay.nju.edu.cn</a> -&gt; 选择 <strong>校内用户</strong> -&gt; 输入管理员账号密码 -&gt; 到达 <strong>在线支付平台界面导航</strong></p>
 </li>
 <li><p class="first"><strong>新建收费项目</strong>. 点击 <strong>项目申请</strong> 按钮 -&gt; 设置 <strong>项目选项</strong> (具体设置见下文的列表) -&gt; 点击 <strong>保存</strong></p>
-<ul class="simple">
-<li>收费项目名称: 校外人员收费测试</li>
-<li>收费性质: 行政事业性</li>
-<li>会计核算项目: 123456(具体以院系的项目编号为准，意思是到账的账号是哪个)</li>
-<li>收费对象: 校外</li>
-<li>收费内容: 考试费</li>
-<li>收费依据: 考试费用, 每学分200元(具体以收费的相关审批文件中 <strong>收费标准</strong> 的规定为准)</li>
-<li>是否可申请退款: 是</li>
-<li>是否支持 POS 支付: 是</li>
+<ul>
+<li><p class="first">收费项目名称: 校外人员收费测试</p>
+</li>
+<li><p class="first">收费性质: 行政事业性</p>
+</li>
+<li><p class="first">会计核算项目: 123456(具体以院系的项目编号为准，意思是到账的账号是哪个)</p>
+</li>
+<li><p class="first">收费对象: 校内</p>
+<div class="admonition note">
+<p class="first admonition-title">注解</p>
+<p class="last">此处是与 <strong>校外收费</strong> 唯一不同之处.</p>
+</div>
+</li>
+<li><p class="first">收费内容: 考试费</p>
+</li>
+<li><p class="first">收费依据: 考试费用, 每学分200元(具体以收费的相关审批文件中 <strong>收费标准</strong> 的规定为准)</p>
+</li>
+<li><p class="first">是否可申请退款: 是</p>
+</li>
+<li><p class="first">是否支持 POS 支付: 是</p>
+<div class="admonition tip">
+<p class="first admonition-title">小技巧</p>
+<ul class="last simple">
+<li>其它选项若不清楚可以不用填.</li>
+<li>该页面的内容之后可以更改.</li>
+</ul>
+</div>
+</li>
+</ul>
+<img alt="_images/in_prj_detail.png" src="_images/in_prj_detail.png" />
+<p>设置完成后, 项目的状态如下:</p>
+<img alt="_images/in_prj_status.png" src="_images/in_prj_status.png" />
+</li>
+<li><p class="first">向财务处提出项目的 <strong>审批申请</strong> -&gt; 等候审批通过</p>
+<div class="admonition tip">
+<p class="first admonition-title">小技巧</p>
+<p class="last">申请审批请电话联系: 025-83684117(朱贺老师)</p>
+</div>
+<img alt="_images/in_prj_pending.png" src="_images/in_prj_pending.png" />
+</li>
+<li><p class="first"><strong>正式对外开启项目</strong>. 设置项目的 <strong>开启时间段</strong> -&gt; 点击 <strong>开启</strong></p>
+<img alt="_images/in_prj_time.png" src="_images/in_prj_time.png" />
+</li>
+<li><p class="first">录入某校内人员的 <strong>缴费信息</strong>. 点击项目的 <strong>名单管理</strong> -&gt; 点击 <strong>添加单个缴费名单</strong> -&gt; 输入人 员编号 <strong>MG1522999</strong> -&gt; 输入人员姓名 <strong>钟某某</strong> -&gt; 输入金额 <strong>1000</strong> -&gt; 点击确定</p>
+<div class="admonition note">
+<p class="first admonition-title">注解</p>
+<ol class="last upperalpha simple">
+<li>人员编号 <strong>必须</strong> 是校内人员的账号, 如学生的学号, 一般字母均为大写.</li>
+<li>姓名必须与人员编号对应, 否则无法录入.</li>
+</ol>
+</div>
+<img alt="_images/in_prj_add.png" src="_images/in_prj_add.png" />
+<p>完成管理员的操作. 钟某某同学的校园账号将会自动生成一笔待支付的款项.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="id5">
+<h3>用户缴费步骤<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h3>
+<p>钟某某进入 <a class="reference external" href="http://pay.nju.edu.cn">http://pay.nju.edu.cn</a> -&gt; 选择 <strong>校内用户</strong> -&gt; 点击登录 -&gt; 按操作进行网银或支付宝的缴费</p>
+<blockquote>
+<div><img alt="_images/in_prj_pay.png" src="_images/in_prj_pay.png" />
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="id6">
+<h2>案例: 收取校外人员的考试费<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h2>
+<div class="section" id="id7">
+<h3>简介<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h3>
+<p>针对某 <strong>校外人员</strong> , 使用南京大学在线财务系统创立一个收费项目并实现线上的收费.</p>
+</div>
+<div class="section" id="id8">
+<h3>管理员步骤<a class="headerlink" href="#id8" title="永久链接至标题">¶</a></h3>
+<ol class="arabic">
+<li><p class="first">进入 <strong>后台项目系统</strong>. 进入 <a class="reference external" href="http://pay.nju.edu.cn">http://pay.nju.edu.cn</a> -&gt; 选择 <strong>校内用户</strong> -&gt; 输入管理员账号密码 -&gt; 到达 <strong>在线支付平台界面导航</strong></p>
+</li>
+<li><p class="first"><strong>新建收费项目</strong>. 点击 <strong>项目申请</strong> 按钮 -&gt; 设置 <strong>项目选项</strong> (具体设置见下文的列表) -&gt; 点击 <strong>保存</strong></p>
+<ul>
+<li><p class="first">收费项目名称: 校外人员收费测试</p>
+</li>
+<li><p class="first">收费性质: 行政事业性</p>
+</li>
+<li><p class="first">会计核算项目: 123456(具体以院系的项目编号为准，意思是到账的账号是哪个)</p>
+</li>
+<li><p class="first">收费对象: 校外</p>
+<div class="admonition note">
+<p class="first admonition-title">注解</p>
+<p class="last">此处是与 <strong>校内收费</strong> 唯一不同之处.</p>
+</div>
+</li>
+<li><p class="first">收费内容: 考试费</p>
+</li>
+<li><p class="first">收费依据: 考试费用, 每学分200元(具体以收费的相关审批文件中 <strong>收费标准</strong> 的规定为准)</p>
+</li>
+<li><p class="first">是否可申请退款: 是</p>
+</li>
+<li><p class="first">是否支持 POS 支付: 是</p>
+<div class="admonition tip">
+<p class="first admonition-title">小技巧</p>
+<ul class="last simple">
+<li>其它选项若不清楚可以不用填.</li>
+<li>该页面的内容之后可以更改.</li>
+</ul>
+</div>
+</li>
 </ul>
 <img alt="_images/out_prj_detail.png" src="_images/out_prj_detail.png" />
 <p>设置完成后, 项目的状态如下:</p>
 <img alt="_images/out_prj_status.png" src="_images/out_prj_status.png" />
 </li>
 <li><p class="first">向财务处提出项目的 <strong>审批申请</strong> -&gt; 等候审批通过</p>
+<div class="admonition tip">
+<p class="first admonition-title">小技巧</p>
+<p class="last">申请审批请电话联系: 025-83684117(朱贺老师)</p>
+</div>
 <img alt="_images/out_prj_pending.png" src="_images/out_prj_pending.png" />
 </li>
 <li><p class="first"><strong>正式对外开启项目</strong>. 设置项目的 <strong>开启时间段</strong> -&gt; 点击 <strong>开启</strong></p>
+<img alt="_images/out_prj_time.png" src="_images/out_prj_time.png" />
 </li>
-<li><p class="first">录入某校外人员的 <strong>缴费信息</strong>. 点击项目的 <strong>名单管理</strong> -&gt; 点击 <strong>添加单个缴费名单</strong> -&gt; 输入人 员编号 <strong>PTY001</strong> -&gt; 输入人员姓名 <strong>张三</strong> -&gt; 输入金额 <strong>7600</strong> -&gt; 点击确定</p>
+<li><p class="first">录入某校外人员的 <strong>缴费信息</strong>. 点击项目的 <strong>名单管理</strong> -&gt; 点击 <strong>添加单个缴费名单</strong> -&gt; 输入人 员编号 <strong>cs001</strong> -&gt; 输入人员姓名 <strong>张三</strong> -&gt; 输入金额 <strong>400</strong> -&gt; 点击确定</p>
 <div class="admonition note">
 <p class="first admonition-title">注解</p>
 <ol class="last upperalpha simple">
@@ -180,14 +287,19 @@
 </div>
 <img alt="_images/out_prj_add.png" src="_images/out_prj_add.png" />
 </li>
-<li><p class="first">查看缴费人员的支付码 点击“查看所有名单” -&gt; 点击查询 -&gt; 复制张三的付款密码(即支 付码): B4241B7D03A28979 -&gt; 将支付码发送给张三</p>
+<li><p class="first"><strong>查看缴费人员的支付码</strong>. 点击 <strong>查看所有名单</strong> -&gt; 点击查询 -&gt; 复制张三的付款密码(即 <strong>支付码</strong> ): <code class="docutils literal"><span class="pre">ECCF71DD14867940</span></code> -&gt; 将支付码发送给张三</p>
+<img alt="_images/out_prj_paycode.png" src="_images/out_prj_paycode.png" />
 <p>完成管理员的操作.</p>
 </li>
 </ol>
 </div>
-<div class="section" id="id5">
-<h3>用户缴费步骤<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h3>
-<p>张三进入pay.nju.edu.cn -&gt; 选择&#8221;校外用户&#8221; -&gt; 输入提供的16位支付码B4241B7D03A28979 -&gt; 点击登录 -&gt; 按操作进行网银或支付宝的缴费</p>
+<div class="section" id="id9">
+<h3>用户缴费步骤<a class="headerlink" href="#id9" title="永久链接至标题">¶</a></h3>
+<p>张三进入 <a class="reference external" href="http://pay.nju.edu.cn">http://pay.nju.edu.cn</a> -&gt; 选择 <strong>校外用户</strong> -&gt; 输入提供的16位支付码 <code class="docutils literal"><span class="pre">BECCF71DD14867940</span></code> -&gt; 点击登录 -&gt; 按操作进行网银或支付宝的缴费</p>
+<blockquote>
+<div><img alt="_images/out_prj_pay.png" src="_images/out_prj_pay.png" />
+<img alt="_images/out_prj_pay2.png" src="_images/out_prj_pay2.png" />
+</div></blockquote>
 </div>
 </div>
 </div>
@@ -200,7 +312,7 @@
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
       
-        <a href="index.html" class="btn btn-neutral" title="南京大学财务处网站使用手册" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="intro.html" class="btn btn-neutral" title="手册介绍" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
