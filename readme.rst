@@ -1,8 +1,8 @@
 =====================
-Read Me
+Readme
 =====================
 
 
 
 
-This article is the project for the financial department of Nanjing University in 2016. 
+Here is the project for the financial department of Nanjing University in 2016. 
