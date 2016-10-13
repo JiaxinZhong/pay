@@ -86,16 +86,21 @@
                 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="intro.html">手册介绍</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">实用案例参考指南</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id2">案例: 收取校内人员的考试费</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#case-in">案例: 收取校内人员的考试费</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id3">简介</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id4">管理员步骤</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id5">用户缴费步骤</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#id6">案例: 收取校外人员的考试费</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#case-out">案例: 收取校外人员的考试费</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id7">简介</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id8">管理员步骤</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id9">用户缴费步骤</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#pos">案例: 使用 POS 机进行线下收费</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id11">POS 机介绍</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id12">操作步骤</a></li>
 </ul>
 </li>
 </ul>
@@ -144,10 +149,10 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="case-out">
-<span id="id1"></span><h1>实用案例参考指南<a class="headerlink" href="#case-out" title="永久链接至标题">¶</a></h1>
-<div class="section" id="id2">
-<h2>案例: 收取校内人员的考试费<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+  <div class="section" id="id1">
+<h1>实用案例参考指南<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<div class="section" id="case-in">
+<span id="id2"></span><h2>案例: 收取校内人员的考试费<a class="headerlink" href="#case-in" title="永久链接至标题">¶</a></h2>
 <div class="section" id="id3">
 <h3>简介<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h3>
 <p>针对某 <strong>校内人员</strong> , 使用南京大学在线财务系统创立一个收费项目并实现线上的收费.</p>
@@ -222,8 +227,8 @@
 </div></blockquote>
 </div>
 </div>
-<div class="section" id="id6">
-<h2>案例: 收取校外人员的考试费<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h2>
+<div class="section" id="case-out">
+<span id="id6"></span><h2>案例: 收取校外人员的考试费<a class="headerlink" href="#case-out" title="永久链接至标题">¶</a></h2>
 <div class="section" id="id7">
 <h3>简介<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h3>
 <p>针对某 <strong>校外人员</strong> , 使用南京大学在线财务系统创立一个收费项目并实现线上的收费.</p>
@@ -300,6 +305,56 @@
 <div><img alt="_images/out_prj_pay.png" src="_images/out_prj_pay.png" />
 <img alt="_images/out_prj_pay2.png" src="_images/out_prj_pay2.png" />
 </div></blockquote>
+</div>
+</div>
+<div class="section" id="pos">
+<span id="case-pos"></span><h2>案例: 使用 POS 机进行线下收费<a class="headerlink" href="#pos" title="永久链接至标题">¶</a></h2>
+<p>使用 <a class="reference external" href="http://pay.nju.edu.cn">南京大学在线支付平台</a> 的线下支付功能(POS 机支付)进行收费。</p>
+<blockquote>
+<div></div></blockquote>
+<div class="admonition important">
+<p class="first admonition-title">重要</p>
+<p class="last">进行线下支付时，你需要一台可以访问外网的电脑。</p>
+</div>
+<div class="section" id="id11">
+<h3>POS 机介绍<a class="headerlink" href="#id11" title="永久链接至标题">¶</a></h3>
+<p>POS 机示意图如下所示, 其中长按 1 按键开机, 长按 2 按键关机, 长按 POS 机两端凸出的按钮 3 进行二维码扫描。</p>
+<blockquote>
+<div><img alt="_images/pos_anatomy.png" src="_images/pos_anatomy.png" />
+</div></blockquote>
+</div>
+<div class="section" id="id12">
+<h3>操作步骤<a class="headerlink" href="#id12" title="永久链接至标题">¶</a></h3>
+<div class="admonition important">
+<p class="first admonition-title">重要</p>
+<p class="last">首先需要申请一个项目, 并在项目设置中开启 <strong>是否支持 POS 支付</strong>, 具体设置方式见手册中的 <a class="reference internal" href="#case-in"><span class="std std-ref">案例: 收取校内人员的考试费</span></a> 和 <a class="reference internal" href="#case-out"><span class="std std-ref">案例: 收取校外人员的考试费</span></a>.</p>
+</div>
+<ol class="arabic">
+<li><p class="first">进入项目的 <strong>导航布面</strong> -&gt; 选择上方的 <strong>线下支付</strong> -&gt; 选中你的项目, 见图中的 <strong>已选中</strong> -&gt; 随后选择 <strong>收费及打印</strong>.</p>
+<div class="admonition tip">
+<p class="first admonition-title">小技巧</p>
+<ol class="last upperalpha simple">
+<li>若是看不到菜单栏中的 <strong>线下支付</strong>, 请尝试刷新一下页面, 或者退出重新登录你的账号.</li>
+<li>有时候选中项目后会自动跳转到 <strong>收费及打印</strong> 栏目.</li>
+</ol>
+</div>
+<img alt="_images/pos_nav.png" src="_images/pos_nav.png" />
+</li>
+<li><p class="first">选择 <strong>添加缴费名单</strong> -&gt; 输入相关信息.</p>
+<div class="admonition important">
+<p class="first admonition-title">重要</p>
+<ol class="last upperalpha simple">
+<li><strong>人员编号</strong> 可以任意, 建议若干英文字母加数字.</li>
+<li><strong>人员姓名必须小于等 5 个字</strong>, 可以出现单位名称, 如 <code class="docutils literal"><span class="pre">东大张三</span></code>, 但请确保是 <strong>真实信息</strong>.</li>
+<li>金额即为需要令对方支付的数额.</li>
+</ol>
+</div>
+<img alt="_images/pos_info.png" src="_images/pos_info.png" />
+</li>
+<li><p class="first">选择付款操作中的 <strong>POS 支付(扫描二维码)</strong> -&gt; 扫描二维码 -&gt; 用户刷卡 -&gt; 点击完成 -&gt; 完成支付.</p>
+<img alt="_images/pos_qr.png" src="_images/pos_qr.png" />
+</li>
+</ol>
 </div>
 </div>
 </div>
