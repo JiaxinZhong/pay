@@ -58,8 +58,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'pay_2016'
-copyright = u'2016, Jiaxin Zhong'
-author = u'Jiaxin Zhong'
+copyright = u'2016, 南京大学财务处财税管理科'
+author = u'南京大学财务处财税管理科'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
